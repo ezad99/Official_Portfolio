@@ -1,2 +1,2 @@
-# OfiicialPortofilio
-My first portfoilio website from scratch
+# Official Portfolio
+My first portfolio website from scratch
