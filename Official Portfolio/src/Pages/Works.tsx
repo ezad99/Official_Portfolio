@@ -2,8 +2,8 @@ import React from 'react'
 
 const Works = () => {
     return (
-        <div>Home</div>
+        <div>Works</div>
     )
 }
 
-export default Works
+export default Works;
