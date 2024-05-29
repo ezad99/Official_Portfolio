@@ -1,0 +1,64 @@
+/* src/pages/Home.css */
+.home-container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero-section {
+    background-color: #282c34;
+    color: white;
+    padding: 4rem 2rem;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+}
+
+.intro-section,
+.projects-preview,
+.contact-section {
+    margin: 2rem 0;
+}
+
+.intro-section h2,
+.projects-preview h2,
+.contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+}
+
+.project-card p {
+    font-size: 1rem;
+}
+
+.contact-section a {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
