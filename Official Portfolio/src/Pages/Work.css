@@ -1,0 +1,35 @@
+.work-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.work-container h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.work-container p {
+    font-size: 1.5rem;
+}
+
+.line {
+    width: 50rem;
+    /* Set the width of the line */
+    height: 0.1rem;
+    /* Set the height or thickness of the line */
+    background-color: #333;
+    /* Set the color of the line */
+    margin: 0 auto;
+    /* Center the line horizontally */
+    margin-bottom: 1rem;
+    /* Add space below the line */
+}
+
+.work-container .project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,20 @@
+/* src/Pages/ProjectDetail.css */
+.project-detail {
+    text-align: center;
+    padding: 2rem;
+}
+
+.project-detail img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.project-detail h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-detail p {
+    font-size: 1.2rem;
+}
