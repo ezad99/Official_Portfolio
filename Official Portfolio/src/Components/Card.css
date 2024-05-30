@@ -33,11 +33,13 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     color: black;
+    font-size: 2rem;
 }
 
 .card .card-text {
     font-family: Arial, Helvetica, sans-serif;
     color: darkgray;
+    font-size: 1rem;
 }
 
 .card:hover {
