@@ -1,15 +1,19 @@
 import React from 'react';
 import Card from '../Components/Card';
 import pokeball from '../assets/pokeball.png'
-// import './Home.css';
+import profilePic from '../assets/EzadParis.jpg'
+import './Home.css';
 
 const Home: React.FC = () => {
     return (
         <div className="home-container">
+            <img className='profile-pic' src={profilePic} alt="Profile Picture"></img>
             <header className="hero-section">
-                <h1>Welcome to My Portfolio</h1>
-                <p>I am [Your Name], a [Your Profession]</p>
+                <h1>Hi I'm Ezad</h1>
+                <h2>Software Engineer @ University of Glasgow</h2>
+                <p>Currently an undergraduate at the University of Glasgow, UK. I'm currently interning at JP Morgan in Glasgow for the Summer.</p>
             </header>
+            <hr className="line"></hr>
             <section className="intro-section">
                 <h2>About Me</h2>
                 <p>
@@ -18,6 +22,7 @@ const Home: React.FC = () => {
                     projects involving [mention some key areas or projects].
                 </p>
             </section>
+            <hr className="line"></hr>
             <section className="projects-preview">
                 <h2>Highlighted Projects</h2>
                 <div className="project-cards">
@@ -26,9 +31,11 @@ const Home: React.FC = () => {
                         imageSrc={pokeball}
                         title={"Pokemon Game"}
                         text={"I wanna be the very best"}
+                        linkTo='/about'
                     />
                 </div>
             </section>
+            <hr className="line"></hr>
             <section className="contact-section">
                 <h2>Contact Me</h2>
                 <p>If you would like to get in touch, feel free to <a href="/contact">contact me</a>.</p>
