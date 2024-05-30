@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from '../Components/Card';
+import pokeball from '../assets/pokeball.png'
 // import './Home.css';
 
 const Home: React.FC = () => {
@@ -21,8 +22,11 @@ const Home: React.FC = () => {
                 <h2>Highlighted Projects</h2>
                 <div className="project-cards">
                     {/* Add your project cards here */}
-                    <Card />
-                    <Card />
+                    <Card
+                        imageSrc={pokeball}
+                        title={"Pokemon Game"}
+                        text={"I wanna be the very best"}
+                    />
                 </div>
             </section>
             <section className="contact-section">
