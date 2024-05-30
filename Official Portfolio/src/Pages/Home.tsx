@@ -1,17 +1,17 @@
 import React from 'react';
 import Card from '../Components/Card';
+import Picture from "../Components/Picture"
 import pokeball from '../assets/pokeball.png'
-import profilePic from '../assets/EzadParis.jpg'
 import './Home.css';
 
 const Home: React.FC = () => {
     return (
         <div className="home-container">
-            <img className='profile-pic' src={profilePic} alt="Profile Picture"></img>
+            <Picture />
             <header className="hero-section">
                 <h1>Hi I'm Ezad</h1>
                 <h2>Software Engineer @ University of Glasgow</h2>
-                <p>Currently an undergraduate at the University of Glasgow. I'm currently interning at JP Morgan in Glasgow for the Summer.</p>
+                <p>Currently an undergraduate at the University of Glasgow. I will be interning at JP Morgan in Glasgow for the Summer.</p>
             </header>
             <hr className="line"></hr>
             <section className="projects-preview">

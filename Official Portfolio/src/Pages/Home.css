@@ -2,12 +2,9 @@
 .home-container {
     text-align: center;
     padding: 2rem;
-}
-
-.profile-pic {
-    width: 25rem;
-    height: auto;
-    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .hero-section {
