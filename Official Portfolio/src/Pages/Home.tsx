@@ -11,17 +11,8 @@ const Home: React.FC = () => {
             <header className="hero-section">
                 <h1>Hi I'm Ezad</h1>
                 <h2>Software Engineer @ University of Glasgow</h2>
-                <p>Currently an undergraduate at the University of Glasgow, UK. I'm currently interning at JP Morgan in Glasgow for the Summer.</p>
+                <p>Currently an undergraduate at the University of Glasgow. I'm currently interning at JP Morgan in Glasgow for the Summer.</p>
             </header>
-            <hr className="line"></hr>
-            <section className="intro-section">
-                <h2>About Me</h2>
-                <p>
-                    I am a passionate [Your Profession] specializing in [Your Specialization].
-                    With [Your Experience] years of experience, I have worked on various
-                    projects involving [mention some key areas or projects].
-                </p>
-            </section>
             <hr className="line"></hr>
             <section className="projects-preview">
                 <h2>Highlighted Projects</h2>

@@ -31,13 +31,11 @@
     font-size: 1.2rem;
 }
 
-.intro-section,
 .projects-preview,
 .contact-section {
     margin: 1rem 0;
 }
 
-.intro-section h2,
 .projects-preview h2,
 .contact-section h2 {
     font-size: 2rem;
