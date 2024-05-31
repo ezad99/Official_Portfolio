@@ -3,8 +3,12 @@ import Card from '../Components/Card';
 import Picture from "../Components/Picture"
 import pokeball from '../assets/pokeball.png'
 import './Home.css';
-
+import projects
+    from '../Data/Projects';
 const Home: React.FC = () => {
+
+    const highlightedProjects = projects.filter(project => project.highlight)
+
     return (
         <div className="home-container">
             <Picture />
@@ -17,13 +21,14 @@ const Home: React.FC = () => {
             <section className="projects-preview">
                 <h2>Highlighted Projects</h2>
                 <div className="project-cards">
-                    {/* Add your project cards here */}
-                    <Card
-                        imageSrc={pokeball}
-                        title={"Pokemon Game"}
-                        text={"I wanna be the very best"}
-                        linkTo='/about'
-                    />
+                    {highlightedProjects.map(project => (
+                        <Card
+                            imageSrc={project.imageSrc}
+                            title={project.name}
+                            text={project.description}
+                            linkTo={`/project/${project.id}`}
+                        />
+                    ))}
                 </div>
             </section>
             <hr className="line"></hr>
