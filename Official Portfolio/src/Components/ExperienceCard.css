@@ -6,14 +6,20 @@
 }
 
 .xp-card .xp-image {
-    max-width: 15%;
+    width: 150px;
+    /* Fixed width */
+    height: auto;
+    /* Maintain aspect ratio */
     border-radius: 20%;
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the container */
 }
 
 .xp-card .xp-details {
     display: flex;
     flex-direction: column;
     padding-left: 2rem;
+    flex: 1;
 }
 
 .xp-card .xp-company {
