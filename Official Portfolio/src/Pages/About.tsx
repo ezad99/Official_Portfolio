@@ -1,4 +1,3 @@
-import React from 'react'
 import ExperienceCard from "../Components/ExperienceCard"
 import JPMorgan from "../assets/JPMorgan.jpg"
 import './About.css'

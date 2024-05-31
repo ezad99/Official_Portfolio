@@ -7,7 +7,7 @@ const ProjectDetail: React.FC = () => {
     const { id } = useParams<{ id: string }>();
 
     // Find the project with the matching id
-    const project = projects.find(project => project.id === parseInt(id, 10));
+    const project = projects.find(project => project.id === parseInt(id as string, 10));
 
     if (!project) {
         return <p>Project not found</p>;

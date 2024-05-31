@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import profilePic from '../assets/EzadParis.jpg';
 import backImage from '../assets/EzadCordoba.jpg';
 import './Picture.css';
@@ -12,8 +12,8 @@ const Picture = () => {
 
     return (
         <div className="body">
-             <div 
-                className={`profile-pic-container ${isFlipped ? 'flipped' : ''}`} 
+            <div
+                className={`profile-pic-container ${isFlipped ? 'flipped' : ''}`}
                 onClick={handleToggle}
             >
                 <div className='pic-card'>

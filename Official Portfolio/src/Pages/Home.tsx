@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from '../Components/Card';
 import Picture from "../Components/Picture"
-import pokeball from '../assets/pokeball.png'
 import './Home.css';
 import projects
     from '../Data/Projects';

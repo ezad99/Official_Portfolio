@@ -1,4 +1,3 @@
-import React from 'react'
 import './Work.css'
 import Card from '../Components/Card'
 import projects from '../Data/Projects'
