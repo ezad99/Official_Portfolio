@@ -7,20 +7,20 @@ const About = () => {
         <div className='about-container'>
             <h1>About</h1>
             <hr className='line' />
-            <p>I'm a 3rd Year Malaysian student who is currently taking a Bachelors (Honours) in Software
+            <p>I'm a Final Year Malaysian student who is currently taking a Bachelors (Honours) in Software
                 Engineering at the University of Glasgow.
             </p>
-            <p>During my studies I have participated in numerous hackathons and an insight week program at JP Morgan where I learned the ins and outs of FinTech from one of the leading banks in the World</p>
-            <p>I will be taking a 2 month internship at JP Morgan this summer where I will be getting practical experience in developing software for a Fortune 500 company</p>
+            <p>I have interned at JP Morgan, one of the biggest and most respected banks in the world where I gained practical experience as a Software Engineer working in the fintech space by delivering business results and making an impact during my team at the company</p>
+            <p>I have also worked numerous positions at my University, with the most recent being a demonstrator entrusted with assisting first year students in their studies and helping them build their knowledge base</p>
             <br />
             <h1>Experience</h1>
             <hr className='line' />
-            <ExperienceCard 
-                imageSrc={JPMorgan} 
-                company={'JP Morgan'} 
-                role={'Software Analyst Intern'} 
-                date={'June 2024 -> Today'} 
-                linkTo={'https://www.jpmorgan.com/global'}                
+            <ExperienceCard
+                imageSrc={JPMorgan}
+                company={'JP Morgan'}
+                role={'Software Analyst Intern'}
+                date={'June 2024 -> August 2024'}
+                linkTo={'https://www.jpmorgan.com/global'}
             />
         </div>
     )
