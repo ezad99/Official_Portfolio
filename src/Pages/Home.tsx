@@ -14,7 +14,7 @@ const Home: React.FC = () => {
             <header className="hero-section">
                 <h1>Hi I'm Ezad</h1>
                 <h2>Software Engineer @ University of Glasgow</h2>
-                <p>Currently an undergraduate at the University of Glasgow. I will be interning at JP Morgan in Glasgow for the Summer.</p>
+                <p>Currently an undergraduate at the University of Glasgow. Former Software Analyst Intern @ JP Morgan.</p>
             </header>
             <hr className="line"></hr>
             <section className="projects-preview">
